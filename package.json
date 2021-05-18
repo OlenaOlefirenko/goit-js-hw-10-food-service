@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://OlenaOlefirenko.github.io/goit-js-hw-10-food-service",
+  "homepage": "https://olenaolefirenko.github.io/goit-js-hw-10-food-service",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OlenaOlefirenko/goit-js-hw-10-food-service.git"
+    "url": "git+https://github.com/olenaolefirenko/goit-js-hw-10-food-service.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
