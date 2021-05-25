@@ -6,15 +6,12 @@ const theme = {
 const bodyEl = document.querySelector('body');
 const switchEl = document.querySelector('#theme-switch-toggle');
 
-bodyEl.classList.add(theme.LIGHT);
 switchEl.addEventListener('change', onSwitchChange);
-bodyEl.classList.add(theme.LIGHT);
 const STORAGE_KEY = 'lightTheme';
-const savedTheme = localStorage.getItem(STORAGE_KEY);
+const isLightTheme = localStorage.getItem(STORAGE_KEY);
 
 function changeThemeCheckbox() {
-  if (savedTheme === 'false') {
-    bodyEl.classList.remove(theme.LIGHT);
+  if (isLightTheme === 'false') {
     bodyEl.classList.add(theme.DARK);
     switchEl.checked = true;
   } else {
